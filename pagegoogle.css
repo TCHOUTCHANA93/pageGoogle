@@ -1,0 +1,155 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+  
+} 
+.blue{
+    background-color: blue;
+    height: 20px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 0px;
+    border: 1px solid white;
+    border-radius: 5px; 
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li{    
+    margin: 15px;
+}
+*{
+    font-family: sans-serif;
+}
+
+.centre{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+
+.foot2 {
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    font-size: 12px;
+
+}
+
+.foot1 {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid white;
+    height: 30px;
+    font-size: 12px;
+}
+
+.input{
+    border:1px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px grey;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.image{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    height:17px; 
+    width:12px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px 10px 10px 10px
+}
+.page{
+    margin: auto;
+}
+.centre{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    position: relative;
+}
+.b{
+    background-color: #f2f2f2;
+    padding: 5px 5px 5px 5px;
+}
+.c{
+    background-color: #f2f2f2;
+    padding: 5px 5px 5px 5px;
+}
+.d{
+    padding: 5px 5px 5px 5px; 
+    text-align: center;
+}
+.logo{
+
+    display: flex;
+    justify-content: space-around;
+}
+.log{
+    widows: 150px;
+}
+.liste{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:1280px)
+{
+    .page{
+        max-width:300px;
+        margin: auto;
+        font-size: 10px;
+    }
+    .input{
+        border:1px solid white;
+        border-radius: 20px;
+        box-shadow: 3px 3px 8px grey;
+        width: 250px;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .image{
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+        height:14px; 
+        width:10px;
+    }
+    .blue{
+        background-color: blue;
+        height: 15px;
+        width: 45px;
+        text-align: center;
+        color: white;
+        text-align: center;
+        padding: 5px 5px 5px 0px;
+        border: 1px solid white;
+        border-radius: 5px; 
+    }
+    .log{
+        width: 150px;
+    }
+    li{    
+        margin: 10px;
+    }
+    .foot1 , .foot2 {
+        font-size: 10px;
+    }
+
+}
